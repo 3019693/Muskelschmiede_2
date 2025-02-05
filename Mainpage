@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #C6DEA6;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #C2EABD;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #BFEDC1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #BFEDC1;
+  color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Muskelschmiede</h1>
+  <p>Das Gym das es bei dir nicht gibt!</p>
+</div>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 5;
+  padding: 0;
+  overflow: hidden;
+  background-color: #E39774;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+}
+</style>
+</head>
+<body>
+
+<ul>
+    <li><a href="Angebote und Kurse.html">Angebote und Kurse</a></li>
+    <li><a href="Oeffnungszeiten.html">Öffnungszeiten</a></li>
+    <li><a href="Kurs- oder Trainerin-Details.html">Kurs- oder Trainer*in-Details</a></li>
+   <li><a href="Uber uns seite.html">Über uns</a></li>
+   <li><a href="Gerate und Materialien.html">Geräte und Materialien</a></li>
+   <li><a href="Impressum und Datenschutzerklarung.html">Impressum und Datenschutzerklarung</a></li>
+</ul>
+
+</body>
+</html>
+
+<div class="row">
+  <div class="column side">
+    <h2>Dein Studio</h2>
+    <!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Standorte - Muskelschmiede</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #EEEEEE;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #E39774;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .standort-box {
+            background: #5C9EAD;
+            color: black;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Unsere Standorte</h1>
+        <div class="standort-box"> Hainfeld</div>
+        <p>An der Alten Linde</p>
+        <div class="standort-box"> Lachen-Speyerdorf</div>
+        <p>Am Döner</p>
+        <div class="standort-box"> Hockenheim</div>
+        <p>Am Hockenheimring</p>
+        <div class="standort-box"> Mannheim</div>
+        <p>Am Wasserturm</p>
+        <div class="standort-box"> Rheinhausen</div>
+        <p> Marienbrunnen</p>
+    </div>
+</body>
+</html>
+
+
+   
+
+  </div>
+  
+  <div class="column middle">
+    <h2>Dein Körper, Dein Stahl, Deine Schmiede!</h2>
+    <p>Willkommen in der Muskelschmiede, wo Schweiß auf Stahl trifft und echte Erfolge geschmiedet werden! Bei uns dreht sich alles um rohe Kraft, Disziplin und Fortschritt. Egal, ob du Muskeln aufbauen, deine Ausdauer steigern oder einfach stärker werden willst – hier findest du die perfekte Umgebung, um deine Ziele zu erreichen.</p>
+
+<p>Top-Equipment, echte Community, kompromisslose Ergebnisse. Werde Teil der Muskelschmiede und forme deinen Körper wie heißes Eisen – mit harter Arbeit, Hingabe und der richtigen Unterstützung.</p>
+
+<p>🔥 Bist du bereit für die Herausforderung? 🔥</p>
+
+<img src="Pastel Muskelbude.png" width="500" height="500"  />
+  </div>
+  
+  <div class="column side">
+    <h2>Tarife</h2>
+    <p><!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preise - Muskelschmiede</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: ##D3F9B5;
+            color: ##000000;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #5C9EAD;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 0px rgba(255, 0, 0, 0.5);
+        }
+        h1, h2 {
+            color:#000000;
+        }
+        .preis-box {
+            border: 1px solid #5C9EAD;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            background: #326273;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #11111;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1> TARIFE & MITGLIEDSCHAFTEN </h1>
+        
+        <div class="preis-box">
+            <h2>BASIC MEMBERSHIP</h2>
+            <p>✔ Zugang zu allen Trainingsbereichen</p>
+            <p>✔ Nutzung aller Geräte & Freihanteln</p>
+            <p>✔ Ohne Vertragsbindung</p>
+            <p class="highlight">💰 39,90 € / Monat</p>
+        </div>
+        
+        <div class="preis-box">
+            <h2>PRO MEMBERSHIP</h2>
+            <p>✔ Alle Vorteile der Basic Membership</p>
+            <p>✔ Kostenloser Zugang zu Kursen</p>
+            <p>✔ Nutzung der Sauna & Erholungsbereich</p>
+            <p class="highlight">💰 59,90 € / Monat</p>
+        </div>
+        
+        <div class="preis-box">
+            <h2>ELITE MEMBERSHIP</h2>
+            <p>✔ Alle Vorteile der Pro Membership</p>
+            <p>✔ Monatlicher Check-up & Trainingsplan</p>
+            <p>✔ 1x Personal Training pro Monat</p>
+            <p>✔ Zugang zum VIP-Bereich</p>
+            <p class="highlight">💰 79,90 € / Monat</p>
+        </div>
+        
+        
+        <div class="preis-box">
+            <h2>PERSONAL TRAINING</h2>
+            <p> <strong>Einzelstunde:</strong> 49,90 €</p>
+            <p> <strong>10er-Paket:</strong> 429,90 €</p>
+        </div>
+        
+        <div class="preis-box">
+            <h2>STUDENTEN- & FIRMENRABATTE</h2>
+            <p>📚 <strong>Studenten:</strong> 10 % Rabatt</p>
+            <p>🏢 <strong>Firmenfitness:</strong> Individuelle Angebote</p>
+        </div>
+        
+        <h2>⚡ Jetzt anmelden & die ersten 7 Tage kostenlos trainieren! ⚡</h2>
+    </div>
+</body>
+</html></p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Haftungsausschluss</p>
+  <p> Für minimale Erfolge und maximale Verletzungen: Achte nicht auf dein Training, höre nich auf deinen Körper und frage unsere Trainerinnen, Trainer oder unser Fitness-Team! </p>
+  <p>Matrikelnummer: 3019693</p>
+</div>
+  
+</body>
+</html>
